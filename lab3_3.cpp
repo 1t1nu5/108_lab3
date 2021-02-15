@@ -1,10 +1,21 @@
 #include <stdio.h>
 int main()
 {
-	int p[100] = {}, pos = 0, n;
-	for (n = 1; n <= 1000; n++)
+	int p[100] = {}, pos = 0, check = 0, n;
+	for (n = 2; n <= 1000; n++)
 	{
-		
+		check = 0;
+		while (p[check] != 0)
+		{
+			if (n % p[check] == 0)
+			{
+				break;
+			}
+			else
+			{
+				check++;
+			}
+		}
 	}
 	int i;
 	scanf("%d", &k);
