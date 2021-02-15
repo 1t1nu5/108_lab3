@@ -6,7 +6,10 @@ int main()
 	{
 		scanf("%d %d %d %d", &score[i][0], &score[i][1], &score[i][2], &score[i][3]);
 		sum = score[i][0] + score[i][1] + score[i][2] + score[i][3];
-		
+		if (max < sum)
+		{
+			max = sum;
+		}
 	}
 	return 0;
 }
