@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
 {
-	int k, prime[95] = {}, prime, i;
+	int k, prime[95] = {}, check, i;
 	
 	for (i = 1; i <= 1000; i++)
 	{
-		
+		check = 0;
+		while (prime[])
 	}
 	
 	i = 0;
