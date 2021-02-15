@@ -1,12 +1,15 @@
 #include <stdio.h>
 int main()
 {
-	int k, prime[95] = {}, nprime = 0, i = 2, finder = 0;
-	while (i < 500)
+	int k, prime[95] = {}, nprime = 0, i, finder = 0;
+	for (i = 2; i < 1000; i++)
 	{
 		for (finder = 0; finder <= nprime; finder++)
 		{
-			
+			if (i % prime[i] == 0)
+			{
+				break;
+			}
 		}
 	}
 	scanf("%d", &k);
