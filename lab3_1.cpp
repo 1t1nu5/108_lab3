@@ -12,5 +12,6 @@ int main()
 			max[1] = sum;
 		}
 	}
+	printf("%d %d", max[0]+1, max[1]);
 	return 0;
 }
