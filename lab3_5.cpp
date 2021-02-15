@@ -3,8 +3,8 @@ int main()
 {
 	int receive, i;
 	scanf("%d", &receive);
-	int p[100] = {}, pos = 0, check = 0, n;
-	for (n = 2; n <= 100; n++)
+	int p[2000] = {}, pos = 0, check = 0, n;
+	for (n = 2; n <= 10000; n++)
 	{
 		check = 0;
 		while (true)
@@ -24,6 +24,12 @@ int main()
 			}
 		}
 	}
-	
+	for (int i = 0; i < receive/5; i++)
+	{
+		if (p[i]*p[i+1]*p[i+2] == receive)
+		{
+			printf("%d is a Lucky Number.");
+		}
+	}
 	return 0;
 }
