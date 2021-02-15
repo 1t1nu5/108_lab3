@@ -75,6 +75,46 @@ int main()
 			printf("43\n");
 			k /= 43;
 		}
+		else if (k%47==0)
+		{
+			printf("47\n");
+			k /= 47;
+		}
+		else if (k%53==0)
+		{
+			printf("53\n");
+			k /= 53;
+		}
+		else if (k%59==0)
+		{
+			printf("59\n");
+			k /= 59;
+		}
+		else if (k%61==0)
+		{
+			printf("61\n");
+			k /= 61;
+		}
+		else if (k%67==0)
+		{
+			printf("67\n");
+			k /= 67;
+		}
+		else if (k%71==0)
+		{
+			printf("71\n");
+			k /= 71;
+		}
+		else if (k%73==0)
+		{
+			printf("73\n");
+			k /= 73;
+		}
+		else if (k%79==0)
+		{
+			printf("79\n");
+			k /= 79;
+		}
 	}
 	return 0;
 }
