@@ -5,6 +5,10 @@ int main()
 	scanf("%d", &k);
 	while (k > 1)
 	{
+		if (i == 95)
+		{
+			break;
+		}
 		if (k%prime[i] == 0)
 		{
 			printf("%d\n", prime[i]);
@@ -13,10 +17,6 @@ int main()
 		else
 		{
 			i++;
-			if (i > 95)
-			{
-				break;
-			}
 		}
 	}
 	if (k > 500)
