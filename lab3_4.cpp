@@ -10,7 +10,6 @@ int main()
 			if (p[check] == 0)
 			{
 				p[check] = n;
-				printf("%d\n", n);
 				break;
 			}
 			if (n % p[check] == 0)
@@ -24,5 +23,7 @@ int main()
 			}
 		}
 	}
+	int receive;
+	scanf("%d", &receive);
 	return 0;
 }
