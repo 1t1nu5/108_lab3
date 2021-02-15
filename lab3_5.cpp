@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-	int receive;
+	int receive, i;
 	scanf("%d", &receive);
 	int p[100] = {}, pos = 0, check = 0, n;
-	for (n = 2; n <= 1000; n++)
+	for (n = 2; n <= 100; n++)
 	{
 		check = 0;
 		while (true)
@@ -16,7 +16,6 @@ int main()
 			}
 			if (n % p[check] == 0)
 			{
-			
 				break;
 			}
 			else
@@ -25,5 +24,6 @@ int main()
 			}
 		}
 	}
+	
 	return 0;
 }
