@@ -16,15 +16,16 @@ int main()
 				check++;
 			}
 		}
+		p[check] = n;
 	}
-	int i;
+	int i, k;
 	scanf("%d", &k);
 	while (k > 1)
 	{
-		if (k%prime[i] == 0)
+		if (k%p[i] == 0)
 		{
-			printf("%d\n", prime[i]);
-			k /= prime[i];
+			printf("%d\n", p[i]);
+			k /= p[i];
 		}
 		else
 		{
