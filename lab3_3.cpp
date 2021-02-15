@@ -25,7 +25,6 @@ int main()
 				}
 			}
 		}
-		i++;
 		goto loop;
 	exit:
 	i = 0;
