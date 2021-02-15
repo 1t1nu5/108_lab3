@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-	int p[1000000] = {}, pos = 0, check = 0, n;
-	for (n = 2; n <= 1000000; n++)
+	int p[500000] = {}, pos = 0, check = 0, n;
+	for (n = 2; n <= 2000000; n++)
 	{
 		check = 0;
 		while (true)
@@ -10,6 +10,7 @@ int main()
 			if (p[check] == 0)
 			{
 				p[check] = n;
+				printf("%d\n", n);
 				break;
 			}
 			if (n % p[check] == 0)
