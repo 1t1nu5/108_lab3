@@ -8,7 +8,18 @@ int main()
 		check = 0;
 		while (prime[check] != 0)
 		{
-			
+			if (i % prime[check] == 0)
+			{
+				break;
+			}
+			else
+			{
+				check++;
+				if (prime[check] != 0)
+				{
+					
+				}
+			}
 		}
 	}
 	
