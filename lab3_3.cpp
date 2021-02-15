@@ -15,6 +15,13 @@ int main()
 			i++;
 		}
 	}
-	printf("0");
+	if (k > 500)
+	{
+		printf("%d\n0", k);
+	}
+	else
+	{
+		printf("0");
+	}
 	return 0;
 }
