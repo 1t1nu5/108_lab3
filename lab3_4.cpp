@@ -23,7 +23,10 @@ int main()
 			}
 		}
 	}
-	int receive;
+	int receive, i;
 	scanf("%d", &receive);
+	for (i = 0; p[i] <= receive; i++);
+	
+	}
 	return 0;
 }
