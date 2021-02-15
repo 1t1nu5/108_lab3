@@ -1,8 +1,11 @@
 #include <stdio.h>
 int main()
 {
-	
-	
+	int p[100] = {}, pos = 0, n;
+	for (n = 1; n <= 1000; n++)
+	{
+		
+	}
 	int i;
 	scanf("%d", &k);
 	while (k > 1)
