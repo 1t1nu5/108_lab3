@@ -2,11 +2,14 @@
 int main()
 {
 	int k, prime[95] = {}, check, i;
-	
-	for (i = 1; i <= 1000; i++)
+	prime[0] = 2;
+	for (i = 3; i <= 1000; i++)
 	{
 		check = 0;
-		while (prime[])
+		while (prime[check] != 0)
+		{
+			
+		}
 	}
 	
 	i = 0;
