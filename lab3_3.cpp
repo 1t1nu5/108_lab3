@@ -1,9 +1,12 @@
 #include <stdio.h>
 int main()
 {
-	int k, prime[95] = {}, nprime = 0;
+	int k, prime[95] = {}, prime, i;
 	
-	
+	for (i = 1; i <= 1000; i++)
+	{
+		
+	}
 	
 	i = 0;
 	scanf("%d", &k);
