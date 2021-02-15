@@ -28,8 +28,10 @@ int main()
 	{
 		if (p[i]*p[i+1]*p[i+2] == receive)
 		{
-			printf("%d is a Lucky Number.");
+			printf("%d is a Lucky Number.", receive);
+			return 0;
 		}
 	}
+	printf("%d is not a Lucky Number.", receive);
 	return 0;
 }
