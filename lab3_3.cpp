@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int k, prime[95] = {}, check, i;
+	int k, prime[100] = {}, check, i;
 	prime[0] = 2;
 	for (i = 3; i <= 1000; i++)
 	{
@@ -15,9 +15,9 @@ int main()
 			else
 			{
 				check++;
-				if (prime[check] != 0)
+				if (prime[check] == 0)
 				{
-					
+					prime[check] = i;
 				}
 			}
 		}
