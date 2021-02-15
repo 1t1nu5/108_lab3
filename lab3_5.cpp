@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+	int receive;
+	scanf("%d", &receive);
 	int p[100] = {}, pos = 0, check = 0, n;
 	for (n = 2; n <= 1000; n++)
 	{
