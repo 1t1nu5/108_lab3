@@ -14,6 +14,10 @@ int main()
 		{
 			i++;
 		}
+		if (i > 95)
+		{
+			break;
+		}
 	}
 	if (k > 500)
 	{
