@@ -1,33 +1,9 @@
 #include <stdio.h>
 int main()
 {
-	int k, prime[100] = {}, check, i = 3;
-	prime[0] = 2;
-	loop:
-	if (i > 1000)
-	{
-		goto exit;
-	}
-		check = 0;
-		while (prime[check] != 0)
-		{
-			if (i % prime[check] == 0)
-			{
-				i++;
-				goto loop;
-			}
-			else
-			{
-				check++;
-				if (prime[check] == 0)
-				{
-					prime[check] = i;
-				}
-			}
-		}
-		goto loop;
-	exit:
-	i = 0;
+	
+	
+	int i;
 	scanf("%d", &k);
 	while (k > 1)
 	{

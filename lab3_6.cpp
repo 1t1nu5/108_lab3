@@ -5,6 +5,8 @@ int main()
 	scanf("^f", &receive);
 	pair[0] = receive;
 	pair[1] = receive;
+	temp[0] = pair[0];
+	temp[1] = pair[1];
 	for (int i = 0; i < 10; i++)
 	{
 		digit[0][i] = temp[0]/multiplier;
