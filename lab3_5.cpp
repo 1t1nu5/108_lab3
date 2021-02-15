@@ -3,8 +3,8 @@ int main()
 {
 	int receive, i;
 	scanf("%d", &receive);
-	int p[2000] = {}, pos = 0, check = 0, n;
-	for (n = 2; n <= 10000; n++)
+	int p[1000000] = {}, pos = 0, check = 0, n;
+	for (n = 2; n <= receive/5; n++)
 	{
 		check = 0;
 		while (true)
