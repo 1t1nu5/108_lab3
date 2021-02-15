@@ -2,15 +2,19 @@
 int main()
 {
 	int k;
-	scanf("%d", &k)
+	scanf("%d", &k);
 	while (k > 1)
 	{
-		if (k%a==0)
+		if (k%2==0)
 		{
-			printf("%d\n", a);
-			k/a;
+			printf("2\n");
+			k /= 2;
 		}
-		
+		else if (k%3==0)
+		{
+			printf("3\n");
+			k /= 3;
+		}
 	}
 	return 0;
 }
