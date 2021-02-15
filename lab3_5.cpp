@@ -24,7 +24,7 @@ int main()
 			}
 		}
 	}
-	for (int i = 0; i < receive/5; i++)
+	for (int i = 0; receive >= p[i]*p[i+1]*p[i+2]; i++)
 	{
 		if (p[i]*p[i+1]*p[i+2] == receive)
 		{
