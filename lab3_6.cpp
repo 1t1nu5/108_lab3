@@ -5,12 +5,23 @@ int main()
 	scanf("^f", &receive);
 	pair[0] = receive;
 	pair[1] = receive;
+	for (int i = 0; i < 10; i++)
+	{
+		digit[0][i] = temp[0]/multiplier;
+		temp[0] -= digit[0][i]*multiplier;
+	}
+	for (int i = 0; i < 10; i++)
+	{
+		digit[1][i] = temp[1]/multiplier;
+		temp[1] -= digit[1][i]*multiplier;
+	}
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d", digit[0][i]);
+	}
+	return 0;
 	loop:
 		temp[0] = pair[0];
-		for (int i = 0; i < 10; i++)
-		{
-			digit[0][0] = temp[0]/multiplier;
-			temp[0] -= pair[0]*multiplier;
-		}
+		
 		goto loop;
 }
