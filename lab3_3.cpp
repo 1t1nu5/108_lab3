@@ -13,10 +13,10 @@ int main()
 		else
 		{
 			i++;
-		}
-		if (i > 95)
-		{
-			break;
+			if (i > 95)
+			{
+				break;
+			}
 		}
 	}
 	if (k > 500)
